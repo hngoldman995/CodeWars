@@ -17,8 +17,3 @@ function findSmallestInt(args) {
 }
 
 
-let numz = [1, 5, 14, 24, 98]
-
-function camelize(str) {
-
-}
