@@ -17,12 +17,9 @@ function fineMultiples(integer, input){
 */
 //run tests
 
-function finMultiples(integer, limit) {
-    let arr = [];
-    for (let i = integer; i <= limit; i++) {
-        if (i % integer === 0) {
-            arr.push(i)
-        }
-    }
-    return arr;
+function findMultiples(int, limit) {
+    let multiples = [];
+    for (let i = int; i <= limit; i += int) { multiples.push(i); }
+    return multiples;
 }
+
