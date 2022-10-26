@@ -14,6 +14,4 @@ function rentalCarCost(d) {
 
 
 
-function findBools(arr) {
-    arr.filter(Boolean).length
-}
+
