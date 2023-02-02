@@ -15,6 +15,8 @@ function setAlarm(employed, vacation) {
     }
 }
 
+
+
 //another way to write this
 const setAlarm = (employed, vacation) => employed && !vacation;
 
