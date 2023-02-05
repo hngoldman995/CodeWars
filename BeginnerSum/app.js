@@ -12,6 +12,7 @@
 // Your function should only return a number, not the explanation about how you get that number.
 
 function GetSum(a,b)
+
 {
   return (Math.abs(a - b) + 1) * (a+b) / 2;
 }
