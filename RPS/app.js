@@ -31,3 +31,24 @@ const rpss = (p1, p2) => {
     else
         return 'Player 2 won!';
 };
+
+function checkArr(arr, x){
+    return arr.includes(x)
+}
+
+document.querySelector('h1').innerText = data.title
+
+function summations(num){
+    let sum = 0
+    for( let i = 0; i <= num; i++){
+        sum += i
+    }
+    return sum
+}
+
+
+function trimStr(str, position){
+    if ( str.length <= 3 ){
+        str.slice(position, str.length)
+    }
+}
