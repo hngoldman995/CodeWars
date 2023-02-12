@@ -7,4 +7,5 @@ function simpleMultiplication(number) {
    }else{
     return number * 9
    }
+   
 }
