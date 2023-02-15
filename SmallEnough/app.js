@@ -5,5 +5,10 @@
 
 function smallEnough(a, limit) {
     return a.every(x => x <= limit);
-    
+
 } 
+
+function vowels(str){
+    return str.replace(/[^bcdfghjklmnpqrstvwxyz]/g, '').length
+}
+
