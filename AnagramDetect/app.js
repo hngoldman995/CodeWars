@@ -14,3 +14,23 @@ function isAnagram(test, original) {
     return test.toLowerCase().split("").sort().join("") === 
     original.toLowerCase().split("").sort().join("");
 }
+
+function sumtoin(num){
+   let sum = 0
+   for(let i = 0; i <= num; i++){
+    sum += i
+   }
+   return sum
+}
+
+funcction strinng(str){
+    return str.replace(/[^bcdfghjklmnpqrstvwxyz]/gi, '').length
+}
+
+function multipleofindex(arr){
+    arr.filter((e, i) => )
+}
+
+function product(arr){
+    return arr.reduce( function (product, value){ return product * value })
+}
