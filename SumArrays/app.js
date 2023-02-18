@@ -21,7 +21,6 @@
 // Sum Numbers
 
 let nums = [2, 4, 56, 1]
-
 function sum(arr) {
     return arr.reduce((a, b) => a + b, 0)
 };
