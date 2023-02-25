@@ -24,7 +24,6 @@
 
 
 const comparator = function (A, Z) {
-    
     const dic = [
         "On the 12th day of Christmas my true love gave to me",
         "12 drummers drumming,",
