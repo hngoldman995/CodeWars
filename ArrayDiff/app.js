@@ -37,6 +37,7 @@ function reduce(arr){
     return arr.reduce(function (x, y){ return x * y})
 }
 
+
 function sameO(str){
     let X = str.replace(/[xX]/g, '').length
     let O = str.replace(/[oO]/g, '').length
