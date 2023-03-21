@@ -16,7 +16,6 @@ function betterThanAverage(classPoints, yourPoints) {
         return false
     }
 }
-
 //refactored solution
 function betterThanAverage(classPoints, yourPoints) {
     return yourPoints > classPoints.reduce((a, b) => a + b, 0) / classPoints.length;
