@@ -28,9 +28,7 @@ function strinng(str){
     return str.replace(/[^bcdfghjklmnpqrstvwxyz]/gi, '').length
 }
 
-function multipleofindex(arr){
-    arr.filter((e, i) => )
-}
+
 
 function product(arr){
     return arr.reduce( function (product, value){ return product * value })
