@@ -31,4 +31,5 @@ function nbYear(p0, percent, aug, p) {
         year.push(i);
     }
     return year.length;
+    
 }
