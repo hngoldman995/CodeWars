@@ -9,7 +9,6 @@ Sure, this is about as easy as it gets. But how clever can you be to create the 
 function greet() {
     return "hello world";
 }
-
 console.log(hiYa());
 
 
