@@ -9,15 +9,16 @@
 // Assertion messages may be unclear about what they display in some languages. If you read "...It Should encode XXX", the "XXX" is the expected result, not the input!
 
 function duplicateEncode(word){
-    let array = word.split('')
-    for(let i = 0; i < array.length; i++){
-        for(x = 0; x <array.length; x++){
-            if( arr[i] == arr[x] && i != x){
-                array.replaceAll(arr[i], ')') 
-            } else{
-                array.replaceAll(arr[i], '(')
-            }
-        }
+    let str = '';
+    word = word.toLowerCase();
+
+    for(let i = 0; i < word.length; i++){
+       if(word.lastIndexOf(word[i]) == word.indexOf(word[i])){
+        str += '(';
+       } else {
+        str += ')';
+       }
     }
-    return array.join('')
+    
+    return str;
 }
