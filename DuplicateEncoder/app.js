@@ -19,6 +19,5 @@ function duplicateEncode(word){
         str += ')';
        }
     }
-    
     return str;
 }
