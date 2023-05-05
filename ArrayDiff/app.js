@@ -42,6 +42,7 @@ function sameO(str){
     let X = str.replace(/[xX]/g, '').length
     let O = str.replace(/[oO]/g, '').length
     if (X === O); 
+    
 }
 
 
