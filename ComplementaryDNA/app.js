@@ -22,4 +22,5 @@ function DNAStrand(dna) {
     T: 'A',
     C: 'G',
     G: 'C',
+    
   }
