@@ -12,6 +12,7 @@ function descendingOrder(n) {
     return Number(num)
 }
 
+
 function descendingOrder(n) {
     return parseInt(String(n).split('').sort().reverse().join(''))
 }
