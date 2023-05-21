@@ -21,9 +21,7 @@
 
 const validateHello = greetings => /hello|ciao|salut|halo|hola|ahoj|czesc/gi.test(greetings);
 
-
 //or
-
 
 const validateHello = greetings => /h[ae]llo|ciao|salut|hola|ahoj|czesc/i.test(greetings);
 
