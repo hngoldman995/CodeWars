@@ -27,6 +27,7 @@ const validateHello = greetings => /h[ae]llo|ciao|salut|hola|ahoj|czesc/i.test(g
 
 //or 
 
+
 function validateHello(greetings) {
     return /(ahoj|ciao|czesc|h[ae]llo|hola|salut)/i.test(greetings)
   }
