@@ -17,6 +17,8 @@
 
 
 
+
+
 function printerError(s) {
     // your code
     var count = 0;
