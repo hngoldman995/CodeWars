@@ -15,6 +15,8 @@
 // s="aaaxbbbbyyhwawiwjjjwwm"
 // printer_error(s) => "8/22"
 
+
+
 function printerError(s) {
     // your code
     var count = 0;
@@ -23,5 +25,5 @@ function printerError(s) {
         count++;
       }
     }
-    return count+"/"+s.length;
+    return count+"/"+s.legngth;
 }
