@@ -21,8 +21,9 @@ function sumtoin(num){
     sum += i
    }
    return sum
-   
 }
+
+
 
 
 function strinng(str){
