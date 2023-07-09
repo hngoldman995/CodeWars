@@ -25,6 +25,9 @@ function sumtoin(num){
    return sum
 }
 
+
+
+
 function strinng(str){
     return str.replace(/[^bcdfghjklmnpqrstvwxyz]/gi, '').length
 }
