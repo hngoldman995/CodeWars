@@ -28,6 +28,11 @@ function sumtoin(num){
 
 
 
+
+
+
+
+
 function strinng(str){
     return str.replace(/[^bcdfghjklmnpqrstvwxyz]/gi, '').length
 }
