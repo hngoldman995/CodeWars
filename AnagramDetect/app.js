@@ -34,6 +34,11 @@ function strinng(str){
 
 
 
+
+
+
+
+
 function product(arr){
     return arr.reduce( function (product, value){ return product * value })
 }
