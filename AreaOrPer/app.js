@@ -17,5 +17,4 @@ const areaOrPerimeter = function(l , w) {
       }
   };
 
-  
   const areaOrPerimeters = (l , w) => l == w ? l*w : 2*(l+w)
