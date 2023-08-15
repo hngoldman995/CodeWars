@@ -18,10 +18,6 @@ function numToStr(num){
     return String(num).split('').reverse()
 }
 
-
-
-
-
 function mexWav(str){
     let arr = []
     for(let i = 0; i <= str.length; i++){
