@@ -9,7 +9,5 @@ function findAverage(array) {
     }else{
         
         return sum / array.length 
-
-        
     }
   }
